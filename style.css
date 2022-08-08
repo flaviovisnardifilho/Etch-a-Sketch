@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+:root {
+  box-sizing: border-box;
+  /* margin: 0; */
+}
+
+.buttons {
+  align-self: center;
+  margin: 20px;
+}
+.container {
+  /* width: min(100vh, 100vw);
+  height: min(100vh, 100vw); */
+  width: 480px;
+  height: 480px;
+  border: 1px solid black;
+  align-self: center;
+
+  /* display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.div-cel:hover {
+  background-color: blue;
+}
+.black {
+  background-color: black;
+}
